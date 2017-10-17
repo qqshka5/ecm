@@ -1,0 +1,10 @@
+.asset_personalLinks li {
+	display: inline;	
+}
+.asset_personalLinks a {
+	color: #999999;
+	text-decoration: none;
+}
+.asset_personalLinks a:hover {
+	text-decoration: underline;
+}
