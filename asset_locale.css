@@ -1,3 +1,63 @@
 .asset_locale {
 	color: #999999;
 }
+.asset_locale-selected {
+	text-align: left;
+	display: inline-block;
+}
+.asset_locale-selected:before {
+	content: '';
+	width: 22px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: -2px;
+	margin-right: 2px;
+}
+.asset_locale-selected:after {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-top: 7px solid black;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	display: inline-block;
+	vertical-align: 2px;
+    margin-left: 2px;
+}	
+
+.asset_locale-selectedCurrency {
+	color: #555555;
+}
+.asset_locale-dropdown {
+	border: 2px solid #333333;
+	text-align: left;
+}
+.asset_locale-dropdownTitle {
+	padding-left: 10px;
+	padding-right: 10px;
+	background: #333333;
+	color: white;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	text-align: center;
+	position: relative;
+}
+.asset_locale-dropdownTitle:before {
+    content: '';
+    width: 22px;
+    height: 16px;
+    margin-right: 5px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.asset_locale-dropdownRow {
+	margin: 10px;
+}
+.asset_locale-currencyControl {
+	visibility: hidden;
+	position: absolute;
+}
+.asset_locale-currencyList {
+	display: none;
+}

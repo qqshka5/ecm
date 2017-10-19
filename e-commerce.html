@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>e-commerce</title>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="img.css">
 	<link rel="stylesheet" type="text/css" href="asset_topLinks.css">
 	<link rel="stylesheet" type="text/css" href="asset_logoStrip.css">
 	<link rel="stylesheet" type="text/css" href="asset_locale.css">
@@ -19,16 +22,57 @@
 				<li><a href="javascript: void(0);"><img src="img/logo/twister-logo.png" alt="twister logo"></a></li>
 				<li><a href="javascript: void(0);"><img src="img/logo/rockstars-logo.png" alt="rockstars logo"></a></li>
 			</ul>
-			<a class="asset_topLinks-superNew" href="javascript: void(0);">
+			<a class="asset_topLinks-superNew imgAfter_star" href="javascript: void(0);">
 				Super New Stuff is here!!!
-				<span class="asset_topLinks-triangle"></span>
+				<span class="asset_topLinks-triangle img_redTriangle"></span>
 			</a>
 		</div>
 	</div>
 	<div class="asset_logoStrip">
 		<div class="layout_centralColumn">
 			<div class="asset_logoStrip-flex">
-				<div class="asset_locale">Unnited Kindom</div>
+				<div class="asset_locale">
+					<div class="asset_locale-selected imgBefore_flagUk">
+						<span class="asset_locale-selectedCountry">United Kingdom,</span>
+						<span class="asset_locale-selectedCorrency">$ USD</span>
+					</div>
+					<div class="asset_locale-dropdown">
+						<div class="asset_locale-dropdownTitle imgBefore_flagUk">United Kingdom</div>
+						<div class="asset_locale-dropdownContent">
+							<div class="asset_locale-dropdownRow">
+								<label class="asset_locale-dropdownLabel" for="asset-locale-dropdown-select-1">Change currency</label>
+							</div>
+							<div class="asset_locale-dropdownRow">
+								<select id="asset-locale-dropdown-select-1" class="asset_locale-currencyControl">
+									<option>Pound</option>
+									<option>$</option>
+									<option>Euro</option>
+									<option>$, Au</option>
+								</select>
+								<div class="asset_locale-dropdownSelectedCurrency">Pound</div>
+								<ul class="asset_locale-currencyList">
+									<li>Pound</li>
+									<li>$</li>
+									<li>Euro</li>
+									<li>$, Au</li>
+								</ul>
+
+							</div>
+							<div class="asset_locale-dropdownRow">
+								<div class="asset_locale-dropdownLabel">Other Country Sites</div>
+							</div>
+							<div class="asset_locale-dropdownRow imgBefore_flag">
+								<ul>
+									<li>United Kingdom</li>
+									<li>United State</li>
+									<li>Italy</li>
+									<li>France</li>
+									<li>Australia</li>
+								</ul>
+							</div>
+						</div>
+					</div>	
+				</div>
 				<a class="asset_siteLogo" href="e-commerce.html"><img src="img/logo/storesmart-logo.png"></a>
 				<ul class="asset_personalLinks">
 					<li><a href="">My Account</a></li>

@@ -1,0 +1,11 @@
+css consist on 
+ 	правило
+ 	selector 
+	block decloration
+	decloration
+	property
+	meaning
+
+Google fonts 
+Font squirrel
+
