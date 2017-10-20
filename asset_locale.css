@@ -51,6 +51,12 @@
     left: 10px;
     top: 5px;
 }
+.asset_locale-dropdownContent {
+	background: #f6f6f6; 
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
 .asset_locale-dropdownRow {
 	margin: 10px;
 }
@@ -61,3 +67,54 @@
 .asset_locale-currencyList {
 	display: none;
 }
+.asset_locale-dropdownSelectedCurrency {
+	border: 1px solid #d7d7d7;
+	background: white;
+	padding: 9px 10px 9px 10px;
+	position: relative;
+}
+.asset_locale-dropdownSelectedCurrency:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 29px;
+	width: 0;
+	border-left: 1px solid #d7d7d7;
+} 
+.asset_locale-dropdownSelectedCurrency:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid #888888;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    position: absolute;
+    right: 10px;
+    top: 14px;
+}   
+.asset_locale-countryList li {
+	padding: 10px 0px 10px 0px;
+	position: relative;
+
+}
+.asset_locale-countryList li + li {
+	border-top: 1px solid #888888;
+}
+.asset_locale-countryList li:before {
+	content: '';
+	display: inline-block;
+ 	width: 22px;
+    height: 16px;
+    vertical-align: -2px;
+    margin-right: 2px;
+} 
+.asset_locale-countryList li:after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+ 	width: 8px;
+    height: 12px;
+    right: 0px;
+    top: 12px;
+} 
