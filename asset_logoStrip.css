@@ -13,6 +13,12 @@
 	width: 100%;
 	text-align: center;
 }
+.asset_logoStrip-flex > *:first-child {
+	text-align: left;
+}
+.asset_logoStrip-flex > *:last-child {
+	text-align: right;
+}
 .asset_logoStrip .asset_locale,
 .asset_logoStrip .asset_personalLinks {
 	display: inline-block;
