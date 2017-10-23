@@ -12,5 +12,8 @@
 	flex-grow: 1;
 	width: 100%;
 	text-align: center;
-
+}
+.asset_logoStrip .asset_locale,
+.asset_logoStrip .asset_personalLinks {
+	display: inline-block;
 }

@@ -1,9 +1,10 @@
 .asset_locale {
 	color: #999999;
+	display: inline-block;
+	position: relative;
 }
 .asset_locale-selected {
 	text-align: left;
-	display: inline-block;
 }
 .asset_locale-selected:before {
 	content: '';
@@ -24,17 +25,32 @@
 	vertical-align: 2px;
     margin-left: 2px;
 }	
-
 .asset_locale-selectedCurrency {
 	color: #555555;
 }
 .asset_locale-dropdown {
 	border: 2px solid #333333;
 	text-align: left;
+	position: absolute;
+	opacity: 0;
+    transition: opacity 0.4s;
+    visibility: hidden;
+    top: calc(100% + 10px);
+    min-width: 210px;
+}
+.asset_locale-dropdownHoverTarget {
+	position: absolute;
+	height: 10px;
+	width: 100%;
+	top: -10px;
+}
+.asset_locale:hover .asset_locale-dropdown {
+	opacity: 1;
+	visibility: visible;
 }
 .asset_locale-dropdownTitle {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 45px;
+	padding-right: 45px;
 	background: #333333;
 	color: white;
 	padding-top: 3px;
@@ -94,7 +110,7 @@
     top: 14px;
 }   
 .asset_locale-countryList li {
-	padding: 10px 0px 10px 0px;
+	padding: 10px 30px 10px 0px;
 	position: relative;
 
 }
@@ -107,7 +123,7 @@
  	width: 22px;
     height: 16px;
     vertical-align: -2px;
-    margin-right: 2px;
+    margin-right: 10px;
 } 
 .asset_locale-countryList li:after {
 	content: '';
@@ -117,4 +133,9 @@
     height: 12px;
     right: 0px;
     top: 12px;
+    opacity: 0;
+    transition: opacity 0.4s;
 } 
+.asset_locale-countryList li:hover:after {
+	opacity: 1;
+}	
