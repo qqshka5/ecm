@@ -5,7 +5,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="reset2.css">
+	<link rel="stylesheet" type="text/css" href="utils.css">
 	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="colors.css">
 	<link rel="stylesheet" type="text/css" href="img.css">
 	<link rel="stylesheet" type="text/css" href="asset_topLinks.css">
 	<link rel="stylesheet" type="text/css" href="asset_logoStrip.css">
@@ -14,6 +17,8 @@
 	<link rel="stylesheet" type="text/css" href="asset_personalLinks.css">
 	<link rel="stylesheet" type="text/css" href="asset_navigationStrip.css">
 	<link rel="stylesheet" type="text/css" href="asset_navigation.css">
+	<link rel="stylesheet" type="text/css" href="asset_search.css">
+	<link rel="stylesheet" type="text/css" href="asset_slider.css">
 
 </head>
 <body>
@@ -84,7 +89,7 @@
 				<div class="asset_logoStrip-child">
 					<ul class="asset_personalLinks">
 						<li><a href="">My Account</a></li>
-						<li><a href="">Saved items</a></li>
+						<li><a href="">Saved items (0)</a></li>
 						<li><a href="">Cart</a></li>
 					</ul>
 				</div>
@@ -93,7 +98,7 @@
 		</div>
 	</div>
 	<div class="asset_navigationStrip">
-		<div class="layout_centralColumn">
+		<div class="layout_centralColumn util_clearfix">
 			<ul class="asset_navigation">
 				<li><a href="javascript: void(0);">Women</a></li>
 				<li><a href="javascript: void(0);">Men</a></li>
@@ -102,10 +107,14 @@
 				<li><a href="javascript: void(0);">Contact</a></li>
 				<li><a href="javascript: void(0);">Locator</a></li>
 			</ul>
+			<div class="asset_search imgAfter_search">
+				<input class="reset_textInput" type="text" name="" placeholder="Search please"/>
+			</div>
 		</div>
-		<div class="asset_navigatioSearch">
-			
-		</div>
+	</div>
+	<div class="asset_slider">
+		<img class="asset-slider-dark" src="img/darkslidepict.jpg">
+
 	</div>
 </body>
 </html>

@@ -39,6 +39,7 @@
     visibility: hidden;
     top: calc(100% + 10px);
     min-width: 210px;
+	z-index: 1;
 }
 .asset_locale-dropdownHoverTarget {
 	position: absolute;
