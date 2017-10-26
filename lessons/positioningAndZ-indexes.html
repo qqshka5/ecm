@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Positioning and z-indexses</title>
+    <style>
+        .size {
+            margin-top: 10px;
+            background: blue;
+            height: 100px;
+        }
+        span {
+            background: darkseagreen;
+        }
+        .relativeDiv {
+            position: relative;
+            top: -35px;
+            left: 40px;
+            background: orangered
+        }
+        .relativeSpan {
+            position: relative;
+            top: -15px;
+            left: 10px;
+        }
+        .margin {
+            margin-top: 10px;
+        }
+        .absolutePositioningSection {
+            position: relative;
+        }
+        .absoluteDiv {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #999999;
+            width: 100%;
+        }
+        .absoluteSpan {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+        }
+        .fixedDiv {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: yellowgreen;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Static positioning</h1>
+        <div>
+            <div class="size"></div>
+            <div class="size"></div>
+            <div class="margin">
+                <span>green</span>
+                <span>dragon</span>
+                <span>blue</span>
+                <span>sofa</span>
+                <span>table</span>
+                <span>bol</span>
+                <span>cucomber</span>
+                <span>Apple</span>
+            </div>
+            <div class="size"></div>
+            <div class="size"></div>
+        </div>
+    </section>
+    <section class="relativePositioningSection">
+        <h1>Relative positioning</h1>
+        <div>
+            <div class="size"></div>
+            <div class="size"></div>
+            <div class="margin">
+                <span>green</span>
+                <span>dragon</span>
+                <span>blue</span>
+                <span class="relativeSpan">sofa</span>
+                <span>table</span>
+                <span>bol</span>
+                <span>cucomber</span>
+                <span>Apple</span>
+            </div>
+            <div class="size relativeDiv"  ></div>
+            <div class="size"></div>
+        </div>
+    </section>
+    <section class="absolutePositioningSection">
+        <h1>Absolute positioning</h1>
+        <div>
+            <div class="size"></div>
+            <div class="size"></div>
+            <div class="margin">
+                <span>green</span>
+                <span>dragon</span>
+                <span>blue</span>
+                <span class="absoluteSpan">sofa</span>
+                <span>table</span>
+                <span>bol</span>
+                <span>cucomber</span>
+                <span>Apple</span>
+            </div>
+            <div class="size absoluteDiv"></div>
+            <div class="size fixedDiv"></div>
+        </div>
+    </section>
+</body>
+</html>

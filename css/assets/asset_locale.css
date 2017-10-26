@@ -35,9 +35,9 @@
 	text-align: left;
 	position: absolute;
 	opacity: 0;
-    transition: opacity 0.4s;
+    transition: opacity 0.4s, top 0.4s;
     visibility: hidden;
-    top: calc(100% + 10px);
+    top: calc(100% - 10px);
     min-width: 210px;
 	z-index: 1;
 }
@@ -50,6 +50,7 @@
 .asset_locale:hover .asset_locale-dropdown {
 	opacity: 1;
 	visibility: visible;
+	top: calc(100% + 10px);
 }
 .asset_locale-dropdownTitle {
 	padding-left: 45px;
@@ -138,7 +139,7 @@
     top: 12px;
     opacity: 0;
     transition: opacity 0.4s;
-} 
+}
 .asset_locale-countryList li:hover:after {
 	opacity: 1;
 }	

@@ -20,3 +20,6 @@
     font-weight: 300;
 	height: 34px;
 }
+.asset_search input::placeholder {
+	color: #cccccc;
+}
