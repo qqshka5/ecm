@@ -1,9 +1,0 @@
-- navigation zoom bug
-- understand clearfix
-- selector specificity
-- when element becomes block
-- line height
-- box-sizing
-- z-index поняла если много окошек то им надо давать индекс чтобы браузер знал какое показывать верхним тип того
-- ways to center stuff
-- ways of positioning in css

@@ -1,0 +1,10 @@
+- understand clearfix
+- selector specificity
+- when element becomes block
+- line height
+- box-sizing
+- ways to center stuff
+- z-index context
+- смысл тега section
++ z-index поняла если много окошек то им надо давать индекс чтобы браузер знал какое показывать верхним тип того
++ ways of positioning in css

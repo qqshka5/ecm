@@ -13,7 +13,7 @@
         }
         .relativeDiv {
             position: relative;
-            top: -35px;
+            top: -5px;
             left: 40px;
             background: orangered
         }
@@ -46,6 +46,67 @@
             right: 20px;
             background: yellowgreen;
             width: 50px;
+        }
+/*<div class="autoIndexesContainer">*/
+/*<div class="color_blue size"></div>*/
+/*<div class="color_yellow size"></div>*/
+/*<div class="color_green size"></div>*/
+/*<div class="color_red size"></div>*/
+        .autoIndexesContainer {
+            position: relative;
+            height: 400px;
+        }
+        .autoIndexesContainer > * {
+            position: absolute;
+        }
+        .autoIndexesContainer .size {
+            width: 100px;
+            margin-top: 0;
+        }
+        .autoIndexesContainer .color_blue {
+            background: cornflowerblue;
+        }
+        .autoIndexesContainer .color_yellow {
+            background: yellow;
+            top: 80px;
+            z-index: 1;
+        }
+        .autoIndexesContainer .color_green {
+            background: darkseagreen;
+            top: 160px;
+        }
+        .autoIndexesContainer .color_red {
+            background: darkred;
+            top: 240px;
+        }
+        .makesContext {
+            position: relative;
+            z-index: 1;
+            background: darkblue;
+            height: 100px;
+        }
+        .zIndex3 {
+            position: absolute;
+            z-index: 3;
+            background: blueviolet;
+            height: 150px;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+        }
+        .noContext {
+            position: relative;
+            background: salmon;
+            height: 100px;
+        }
+        .zIndex2 {
+            position: absolute;
+            z-index: 2;
+            height: 150px;
+            background: skyblue;
+            left: 20px;
+            bottom: 10px;
+            width: 100px;
         }
     </style>
 </head>
@@ -89,7 +150,7 @@
         </div>
     </section>
     <section class="absolutePositioningSection">
-        <h1>Absolute positioning</h1>
+        <h1>Absolute and fixed positioning</h1>
         <div>
             <div class="size"></div>
             <div class="size"></div>
@@ -105,6 +166,26 @@
             </div>
             <div class="size absoluteDiv"></div>
             <div class="size fixedDiv"></div>
+        </div>
+    </section>
+    <section>
+        <h1>Z-indexes without context</h1>
+        <div class="autoIndexesContainer">
+            <div class="color_blue size"></div>
+            <div class="color_yellow size"></div>
+            <div class="color_green size"></div>
+            <div class="color_red size"></div>
+        </div>
+    </section>
+    <section>
+        <h1>Z-indexes with context</h1>
+        <div class="zIndexContextDemo">
+            <div class="makesContext">
+                <div class="zIndex3"></div>
+            </div>
+            <div class="noContext">
+                <div class="zIndex2"></div>
+            </div>
         </div>
     </section>
 </body>

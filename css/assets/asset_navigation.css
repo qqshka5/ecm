@@ -4,11 +4,12 @@
     float: left;
 }
 .asset_navigation li {
-	display: inline-block;
+    position: relative;
+    display: inline-block;
+	top: -1px;
 }
 .asset_navigation a {
 	padding: 10px;
-	position: relative;
 	transition: background 0.4s;
 	color: #555555;
 	display: block;
