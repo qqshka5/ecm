@@ -35,4 +35,28 @@
 .asset_slider-content {
     float: left;
     width: 50%;
+    height: 100%;
 }
+.asset_slider-picture {
+    position: relative;
+}
+.asset_slider-picture img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.asset_slider-slide {
+    height: 420px;
+}
+.asset_slider-content {
+    position: relative;
+}
+.asset_slider-content h1 {
+    font-size: 48px;
+    font-family: 'Manuale', serif;
+}
+.asset_slider-content div {
+    font-size: 24px;
+    font-family: 'Manuale', serif;
+}
+

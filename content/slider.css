@@ -1,0 +1,16 @@
+#slide1 {
+    background: black;
+}
+#slide1 .asset_slider-content h1 {
+    color: white;
+}
+#slide1 .asset_slider-content div {
+    color: #6f6f6f;
+}
+#slide1 .asset_slider-content button {
+    color: white;
+    border-color: white;
+}
+#slide2 {
+    background: #f6f6f6;
+}

@@ -6,5 +6,6 @@
 - ways to center stuff
 - z-index context
 - смысл тега section
+- взаимодействие flout elements
 + z-index поняла если много окошек то им надо давать индекс чтобы браузер знал какое показывать верхним тип того
 + ways of positioning in css
