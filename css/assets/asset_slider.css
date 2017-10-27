@@ -31,11 +31,17 @@
 							<button>View Collection</button>
 
 */
+.asset_slider-slide {
+    height: 420px;
+}
 .asset_slider-picture,
 .asset_slider-content {
     float: left;
     width: 50%;
     height: 100%;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .asset_slider-picture {
     position: relative;
@@ -45,18 +51,31 @@
     left: 50%;
     transform: translateX(-50%);
 }
-.asset_slider-slide {
-    height: 420px;
-}
 .asset_slider-content {
     position: relative;
+}
+.asset_slider-contentSymbol {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .asset_slider-content h1 {
     font-size: 48px;
     font-family: 'Manuale', serif;
+    line-height: 54px;
 }
-.asset_slider-content div {
+.asset_slider-text {
     font-size: 24px;
     font-family: 'Manuale', serif;
+    margin-bottom: 30px;
+    margin-top: 24px;
+    line-height: 30px;
+}
+.asset_slider-content button {
+    padding: 9px 20px 9px 20px;
+    border-width: 3px;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 400;
 }
 
