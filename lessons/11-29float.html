@@ -2,16 +2,85 @@
 <html>
 <head>
     <title>float lesson</title>
+    <style>
+        .container {
+            background: #cccccc;
+        }
+        .block1 img {
+            float: left;
+            max-width: 160px;
+            margin-right: 12px;
+            margin-top: 10px;
+        }
+        .block1 p {
+            padding-top: 10px;
+        }
+        .block2 {
+            background: lightgoldenrodyellow;
+            text-align: center;
+            float: none;
+        }
+        .block3 {
+            background: skyblue;
+            float: left;
+            border: 1px solid cornflowerblue;
+        }
+        .block3 img {
+            float: right;
+            max-width: 160px;
+            margin-right: 12px;
+            margin-top: 10px;
+        }
+        .block46 {
+            background: #167c9a;
+            border: 1px solid black;
+        }
+        .block46 li {
+            list-style-type: none;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        .block4 {
+            float: left;
+            width: 150px;
+            height: 80px;
+            background: orange;
+        }.block5 {
+            float: right;
+            width: 150px;
+            height: 80px;
+            background: yellowgreen;
+        }.block6 {
+            width: 150px;
+            height: 80px;
+            background: red;
+            float: left;
+        }
+    </style>
 </head>
 <body>
-    <div class="contaner">
-        1. Прочитать статью. По буквам разбирать не надо. На практике станет понятнее (перед этим повторить понятие "нормальный поток" из notes.txt, в статье он называется просто "потоком")
-        2. Создать новый документ
-        3. Добавить в body div.container (<div class="container"></div>), который будет содержать все остальные элементы прототипа. Задать ему произвольный цвет фона
-        4. Внутрь контейнера добавить вперемешку
-        - произвольный текст
-        <div class="block1"></div>
-        <div class="block2"></div>
+    <div class="container">
+        <div class="block1"><img src="Baba_Yaga1.jpg">
+         <p>
+          In Slavic folklore, Baba Yaga /ˈbɑːbə jəˈɡɑː/[1] (Russian: Баба-яга, Polish: Baba Jaga) is a supernatural being (or one of a trio of sisters of the same name) who appears as a deformed and/or ferocious-looking witch. Baba Yaga flies around in a mortar, wields a pestle, and dwells deep in the forest in a hut usually described as standing on chicken legs (or sometimes a single chicken leg).[2] Baba Yaga may help or hinder those that encounter or seek her out. She sometimes plays a maternal role, and also has associations with forest wildlife. According to Vladimir Propp's folktale morphology, Baba Yaga commonly appears as either a donor or villain, or may be altogether ambiguous.
+         </p>
+        </div>
+        <div style="clear:both"></div>
+          <p class="block2">
+          Andreas Johns identifies Baba Yaga as "one of the most memorable and distinctive figures in Slavic European folklore", and observes that she is "enigmatic" and often exhibits "striking ambiguity".[3] Johns summarizes Baba Yaga as "a many-faceted figure, capable of inspiring researchers to see her as a Cloud, Moon, Death, Winter, Snake, Bird, Pelican, Mermaid or Earth Goddess, totemic matriarchal ancestress, female initiator, phallic mother, or archetypal image".[4]
+          </p>
+        <div class="block3">
+            <img src="baba_yaga.jpg"/>
+            <p>Variations of the name Baba Yaga are found in the languages of the Eastern Slavic peoples. The first element, baba, is transparently a babble word, meaning 'woman', or, specifically, 'old woman'. The same word is still used for both grandmother and old woman in general in Bulgarian, Macedonian, Romanian and Serbo-Croatian languages. In modern Russian, the word бабушка babushka (meaning 'grandmother') derives from it, as does the word babcia (also 'grandmother') in Polish or бабуся babusya in Ukrainian. Baba may also have a pejorative connotation in modern Ukrainian and Russian, both for women as well as for "an unmanly, timid, or characterless man".[4] In Polish, the term is considered to be pejorative, meaning 'vicious or ugly woman'.[5] In Czech both of those meanings apply. Similarly to other kinship terms in Slavic languages, baba may be employed outside of kinship, potentially as a result of taboo. For example, in variety of Slavic languages and dialects, the word baba may be applied to various animals, natural phenomena, and objects, such as types of mushrooms or a cake or pear. This function extends to various geographic features. In the Polesia region of Ukraine, the plural баби baby may refer to an autumn funeral feast.[4]
+                These associations have led to a variety of theories on the figure of Baba Yaga, though the presence of the element baba may have simply been taken as its primary meaning of 'grandmother' or 'old woman'. The element may appear as a means of glossing the second element, yaga, with a familiar component. Additionally, baba may have also been applied as a means of distinguishing Baba Yaga from a male counterpart.[4]
+                While a variety of etymologies have been proposed for the second element of the name, Yaga, it remains far more etymologically difficult and no clear consensus among scholars has resulted. For example, in the 19th century, Alexander Afanasyev proposed the derivation of Proto-Slavic *ǫžь ('serpent') and Sanskrit अहि ahi ('serpent, snake'). This etymology has subsequently been explored by other scholars in the 20th century.[6]
+                Related terms to the second element of the name, Yaga, appear in various Slavic languages: Serbo-Croatian jeza ('horror, shudder, chill'), Slovenian jeza ('anger'), Old Czech jězě ('witch, legendary evil female being'), modern Czech jezinka ('wicked wood nymph, dryad'), and Polish jędza ('witch, evil woman, fury'). The term appears in Old Church Slavonic as jęza or jędza (meaning 'disease, illness'). In other Indo-European languages the element iaga has been linked to Lithuanian engti ('to oppress, to skin'), ingti ('to become lazy, to become bald, to shed skin') and ingas ('lazy, slow'), Old English inca ('doubt, worry, pain'), and Old Norse ekki ('pain, worry').[6]</p>
+        </div>
+        <ul class="block46">
+        <li class="block4"></li>
+        <li class="block5"></li>
+        <li class="block6"></li>
+        </ul>
     </div>
 
 </body>

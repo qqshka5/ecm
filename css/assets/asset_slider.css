@@ -31,8 +31,20 @@
 							<button>View Collection</button>
 
 */
+.asset_slider-slides {
+    white-space: nowrap;
+    overflow: hidden;
+}
 .asset_slider-slide {
     height: 420px;
+    display: inline-block;
+    width: 100%;
+    white-space: initial;
+    transition: transform 0.6s;
+}
+.asset_slider-slides:hover .asset_slider-slide{
+    transform: translateX(-100%);
+
 }
 .asset_slider-picture,
 .asset_slider-content {
