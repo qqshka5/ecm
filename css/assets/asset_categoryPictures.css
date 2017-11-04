@@ -1,0 +1,51 @@
+.section_white {
+    background: white;
+    text-align: center;
+    padding-bottom: 73px;
+}
+.typo_richHeader {
+    position: relative;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 55px;
+    color: #434343;
+    padding-bottom: 20px;
+}
+.typo_richHeader:after {
+    content: '';
+    position: absolute;
+    height: 7px;
+    display: inline-block;
+    width: 98%;
+    bottom: 0;
+    left: 0;
+}
+.asset_categoryPictures li {
+    float: left;
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 20px;
+    padding-bottom: 55px;
+}
+.asset_categoryPictures a {
+    position: relative;
+}
+.asset_categoryPictures span {
+    position: absolute;
+    left: 10px;
+    top: -28px;
+    color: white;
+    font-size: 36px;
+}
+.typo_header2 {
+    font-size: 30px;
+    margin-bottom: 36px;
+    color: #434343;
+    text-align: center;
+}
+.typo_paragraph1 {
+    font-family: 'Manuale', serif;;
+    font-size: 18px;
+    color: #999999;
+    line-height: 30px;
+}

@@ -1,36 +1,3 @@
-/*
-	<div class="asset_slider">
-		<ul class="asset_slider-slides">
-			<li class="asset_slider-slide" style="background: black;">
-				<div class="layout_centralColumn util_clearfix">
-					<div class="asset_slider-picture">
-						<img src="content/slide1.jpg" alt="Wedding">
-					</div>
-					<section class="asset_slider-content">
-						<h1>Gentlemen, this way please</h1>
-						<div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero, eu dignissim enim.</p>
-						</div>
-						<div>
-							<button>View Collection</button>
-						</div>
-					</section>
-				</div>
-			</li>
-			<li class="asset_slider-slide" style="background: #f6f6f6;">
-				<div class="layout_centralColumn">
-					<div class="asset_slider-picture">
-						<img src="content/slide2.jpg" alt="Cat">
-					</div>
-					<section class="asset_slider-content">
-						<h1>Gentlemen, this way please</h1>
-						<div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae massa velit, eu laoreet massa. Sed ac orci libero, eu dignissim enim.</p>
-						</div>
-						<div>
-							<button>View Collection</button>
-
-*/
 .asset_slider-slides {
     white-space: nowrap;
     overflow: hidden;
