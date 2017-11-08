@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/common/layout.css">
 	<link rel="stylesheet" type="text/css" href="css/common/colors.css">
 	<link rel="stylesheet" type="text/css" href="css/common/img.css">
+	<link rel="stylesheet" type="text/css" href="css/common/typo_styles.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_topLinks.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_logoStrip.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_locale.css">
@@ -21,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_slider.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_categoryPictures.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_popularProduct.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/asset_catalog.css">
 
 	<link rel="stylesheet" type="text/css" href="content/slider.css">
 </head>
@@ -96,9 +98,9 @@
 				</div>
 				<div class="asset_logoStrip-child">
 					<ul class="asset_personalLinks">
-						<li><a href="">My Account</a></li>
-						<li><a href="">Saved items (0)</a></li>
-						<li><a href="">Cart</a></li>
+						<li><a href="javascript: void(0);">My Account</a></li>
+						<li><a href="javascript: void(0);">Saved items (0)</a></li>
+						<li><a href="javascript: void(0);">Cart</a></li>
 					</ul>
 				</div>
 			</div>
@@ -165,90 +167,116 @@
 	<div class="section_white">
 		<div class="layout_centralColumn">
 			<h1 class="typo_richHeader util_center imgAfter_richHeader">THE FINEST QUALITY</h1>
-			<ul class="asset_categoryPictures">
-				<li><a href=""><img src="img/content/jackets.jpg" alt="jackets"><span class="asset_categoryText">Jackets</span></a></li>
-				<li><a href=""><img src="img/content/suites.jpg" alt="suites"><span class="asset_categoryText">Suites</span></a></li>
-				<li><a href=""><img src="img/content/jerseys.jpg" alt="jerseys"><span class="asset_categoryText">Jersey</span></a></li>
-				<li><a href=""><img src="img/content/shoes.jpg" alt="shoes"><span class="asset_categoryText">Shoes</span></a></li>
+			<ul class="asset_categoryPictures util_clearfix">
+				<li><a href="javascript: void(0);"><img src="img/content/jackets.jpg" alt="jackets"><span class="asset_categoryText">Jackets</span></a></li>
+				<li><a href="javascript: void(0);"><img src="img/content/suites.jpg" alt="suites"><span class="asset_categoryText">Suites</span></a></li>
+				<li><a href="javascript: void(0);"><img src="img/content/jerseys.jpg" alt="jerseys"><span class="asset_categoryText">Jersey</span></a></li>
+				<li><a href="javascript: void(0);"><img src="img/content/shoes.jpg" alt="shoes"><span class="asset_categoryText">Shoes</span></a></li>
 			</ul>
 			<h2 class="typo_header2">Mauris Iaculis Porttitor Posuere. Praesent Id Metus Massa</h2>
-			<p class="typo_paragraph1">Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.<br> Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.<br> Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit.
-			</p>
+			<p class="typo_paragraph1"><!--
+				-->Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci.
+				<!--			-->Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.
+				<!--			-->Nulla at nulla justo, eget luctus tortor. Nulla facilisi. Duis aliquet egestas purus in blandit.<!--
+			--></p>
 		</div>
-		<div class="section_gray asset_catalog">
-			<div class="layout_centralColumn">
-				<h1 class="typo_richHeaderItem util_center imgAfter_richHeaderItem imgBefore_richHeaderItem">POPULAR PRODUCTS</h1>
-				<a class="grayLink" href="">View All</a>
-				<ul class="popularItems">
-					<li><a href="">
-						<img src="img/content/shoes1.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText-describe">DARK BROGUES</span>
-							<span class="price">$65</span>
-						</div>
-					</a></li>
-					<li><a href="">
-						<img src="img/content/shoes2.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText-describe">LEATHER HIGHTOPS</span>
-							<span class="price">$65</span>
-						</div>
-					</a></li>
-					<li><a href="">
-						<img src="img/content/shoes3.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText-describe">GRAY BROGUES</span>
-							<span class="price">$65</span>
-						</div>
-					</a></li>
-					<li><a href="">
-						<img src="img/content/shoes4.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText-describe">DARK BROGUES</span>
-							<span class="price">$65</span>
-						</div>
-					</a></li>
-				</ul>
-				<h1 class="typo_richHeaderItem util_center imgAfter_richHeaderItem imgBefore_richHeaderItem">JUST ARRIVED</h1>
-				<a class="grayLink" href="">View All</a>
-				<ul class="newItems">
-					<li>
-						<a href="">
+	</div>
+	<div class="section_gray">
+		<div class="layout_centralColumn">
+			<h1 class="typo_richHeaderItem util_center imgAfter_richHeaderItem imgBefore_richHeaderItem background_gray">
+				<span>POPULAR PRODUCTS</span>
+			</h1>
+			<a class="typo_grayLink" href="javascript: void(0);">View All</a>
+			<ul class="popularItems util_clearfix">
+				<li>
+					<a href="javascript: void(0);">
+					<img src="img/content/shoes1.jpg" alt="boots">
+					<div class="asset_itemText">
+						<span class="asset_itemText-describe">DARK BROGUES</span>
+						<span class="price">
+							$65
+						</span>
+					</div>
+					</a>
+					<button class="curtButton">Add to cart</button>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+					<img src="img/content/shoes2.jpg" alt="boots">
+					<div class="asset_itemText">
+						<span class="asset_itemText-describe">LEATHER HIGHTOPS</span>
+						<span class="price">
+							$65
+						</span>
+					</div>
+					</a>
+					<button class="curtButton">Add to cart</button>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+					<img src="img/content/shoes3.jpg" alt="boots">
+					<div class="asset_itemText">
+						<span class="asset_itemText-describe">GRAY BROGUES</span>
+						<span class="price">
+							$65
+						</span>
+					</div>
+					</a>
+					<button class="curtButton">Add to cart</button>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+					<img src="img/content/shoes4.jpg" alt="boots">
+					<div class="asset_itemText">
+						<span class="asset_itemText-describe">DARK BROGUES</span>
+						<span class="price">
+							$65
+						</span>
+					</div>
+					</a>
+					<button class="curtButton">Add to cart</button>
+				</li>
+			</ul>
+			<h1 class="typo_richHeaderItem util_center imgAfter_richHeaderItem imgBefore_richHeaderItem">JUST ARRIVED</h1>
+			<a class="grayLink" href="javascript: void(0);">View All</a>
+			<ul class="newItems util_clearfix">
+				<li>
+					<a href="javascript: void(0);">
 						<img src="img/content/shoes5.jpg" alt="boots">
 						<div class="asset_itemText">
 							<span class="asset_itemText">DARK BROGUES</span>
 							<span class="price">$65</span>
 						</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<img src="img/content/shoes6.jpg" alt="boots">
-							<div class="asset_itemText">
-								<span class="asset_itemText">LEATHER HIGHTOPS</span>
-								<span class="price">$65</span>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<img src="img/content/shoes7.jpg" alt="boots">
-							<div class="asset_itemText">
-								<span class="asset_itemText">GRAY BROGUES</span>
-								<span class="price">$65</span>
-							</div>
-						</a>
-					</li>
-					<li>
-						<a href="">
-							<img src="img/content/shoes8.jpg" alt="boots">
-							<div class="asset_itemText">
-								<span class="asset_itemText">DARK BROGUES</span>
-								<span class="price">$65</span>
-							</div>
-						</a>
-					</li>
-				</ul>
+					</a>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+						<img src="img/content/shoes6.jpg" alt="boots">
+						<div class="asset_itemText">
+							<span class="asset_itemText">LEATHER HIGHTOPS</span>
+							<span class="price">$65</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+						<img src="img/content/shoes7.jpg" alt="boots">
+						<div class="asset_itemText">
+							<span class="asset_itemText">GRAY BROGUES</span>
+							<span class="price">$65</span>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="javascript: void(0);">
+						<img src="img/content/shoes8.jpg" alt="boots">
+						<div class="asset_itemText">
+							<span class="asset_itemText">DARK BROGUES</span>
+							<span class="price">$65</span>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </body>

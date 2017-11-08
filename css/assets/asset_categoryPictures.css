@@ -10,22 +10,25 @@
     margin-top: 55px;
     color: #434343;
     padding-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .typo_richHeader:after {
     content: '';
     position: absolute;
     height: 7px;
     display: inline-block;
-    width: 98%;
+    width: 100%;
     bottom: 0;
     left: 0;
+}
+.asset_categoryPictures {
+    margin-top: 10px;
 }
 .asset_categoryPictures li {
     float: left;
     display: inline-block;
-    margin-top: 25px;
-    margin-right: 20px;
-    padding-bottom: 55px;
+    margin: 10px;
 }
 .asset_categoryPictures a {
     position: relative;
@@ -40,6 +43,7 @@
 .typo_header2 {
     font-size: 30px;
     margin-bottom: 36px;
+    margin-top: 36px;
     color: #434343;
     text-align: center;
 }
@@ -48,4 +52,5 @@
     font-size: 18px;
     color: #999999;
     line-height: 30px;
+    white-space: pre-wrap;
 }

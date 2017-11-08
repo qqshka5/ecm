@@ -4,3 +4,14 @@
 - ways of positioning in css
 + z-index поняла если много окошек то им надо давать индекс чтобы браузер знал какое показывать верхним тип того
 + selector specificity
+
+- margin-left, margin-right for everything
+- typo_ styles to a separate css
+- grayLink class rename to typo_grayLink
+- asset_catalog should be inside layout_centralColumn and contain only one h1, a, ul
+- popularItems and newItems should be part of asset_catalog and be renamed both to asset_catalog-items
+- set .asset_catalog-items li { margin: 10px; } and remove paddings
+- adjust "view all" link margin-top, margin-bottom
+- fill all href attributes with "javascript: void(0);"
+- rename asset_itemText to asset_catalog-text, price to asset_catalog - price, set them  display: block
+- adjust margins, paddings
