@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 	<title>e-commerce</title>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
@@ -23,15 +23,34 @@
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_categoryPictures.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_popularProduct.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_catalog.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/asset_personalAssistant.css">
 
 	<link rel="stylesheet" type="text/css" href="content/slider.css">
 </head>
-<body>
 	<!--
 		@todo
 		- navigation zoom bug
 		- navigation content
 	-->
+	<div>
+		<div class=" div.asset_personalAssistant > div.asset_personalAssistant-enter + div.asset_personalAssistant-popup">
+		</div>
+		<div class="asset_personalAssistant">
+		</div>
+		<div class="asset_personalAssistant-enter"><span>Personal Assistant</span></div>
+		<div class="asset_personalAssistant-popup">
+			<section class="personalAssistant">
+				<span class="liveChat">Personal Assistant - live chat</span>
+			</section>
+			<section class="personalAssistantWhite">
+				<h1 class="liveChatHeader">Welcome!</h1>
+				<span class="liveChatDescribe">Please note, UNISHOP Stylists are not able to assist with<br> Customer Care enquiries.</span>
+				<input class="reset_textInput nameInput" type="text" name="" placeholder="Name"/>
+				<input class="reset_textInput emailInput" type="text" name="" placeholder="Email Address"/>
+				<button>Start Chat</button>
+			</section>
+		</div>
+	</div>
 	<div class="asset_topLinks">
 		<div class="layout_centralColumn">
 			<ul class="asset_topLinks-brands">
@@ -187,49 +206,51 @@
 				<span>POPULAR PRODUCTS</span>
 			</h1>
 			<a class="typo_grayLink" href="javascript: void(0);">View All</a>
-			<ul class="popularItems util_clearfix">
-				<li>
+			<ul class="asset_catalog-items util_clearfix">
+				<li class="asset_catalog-item">
 					<a href="javascript: void(0);">
-					<img src="img/content/shoes1.jpg" alt="boots">
-					<div class="asset_itemText">
-						<span class="asset_itemText-describe">DARK BROGUES</span>
-						<span class="price">
+						<img src="img/content/shoes1.jpg" alt="boots">
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
+						<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+						<span class="asset_catalog-price">
 							$65
 						</span>
 					</div>
 					</a>
 					<button class="curtButton">Add to cart</button>
 				</li>
-				<li>
+				<li class="asset_catalog-item">
 					<a href="javascript: void(0);">
 					<img src="img/content/shoes2.jpg" alt="boots">
-					<div class="asset_itemText">
-						<span class="asset_itemText-describe">LEATHER HIGHTOPS</span>
-						<span class="price">
+					<div class="asset_catalog-text">
+						<span class="asset_catalog-textDescribe">LEATHER HIGHTOPS</span>
+						<span class="asset_catalog-price">
 							$65
 						</span>
 					</div>
 					</a>
 					<button class="curtButton">Add to cart</button>
 				</li>
-				<li>
+				<li class="asset_catalog-item asset_catalog-item--sale">
 					<a href="javascript: void(0);">
 					<img src="img/content/shoes3.jpg" alt="boots">
-					<div class="asset_itemText">
-						<span class="asset_itemText-describe">GRAY BROGUES</span>
-						<span class="price">
+					<div class="asset_catalog-text">
+						<span class="asset_catalog-textDescribe">GRAY BROGUES</span>
+						<span class="asset_catalog-price">
 							$65
 						</span>
 					</div>
 					</a>
 					<button class="curtButton">Add to cart</button>
 				</li>
-				<li>
-					<a href="javascript: void(0);">
+				<li class="asset_catalog-item asset_catalog-item--new">
+				<a href="javascript: void(0);">
 					<img src="img/content/shoes4.jpg" alt="boots">
-					<div class="asset_itemText">
-						<span class="asset_itemText-describe">DARK BROGUES</span>
-						<span class="price">
+					<div class="asset_catalog-text">
+						<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+						<span class="asset_catalog-price">
 							$65
 						</span>
 					</div>
@@ -237,44 +258,66 @@
 					<button class="curtButton">Add to cart</button>
 				</li>
 			</ul>
-			<h1 class="typo_richHeaderItem util_center imgAfter_richHeaderItem imgBefore_richHeaderItem">JUST ARRIVED</h1>
-			<a class="grayLink" href="javascript: void(0);">View All</a>
-			<ul class="newItems util_clearfix">
+			<h1 class="typo_richHeaderItem1 util_center imgBefore_richHeaderItem">
+				<span>JUST ARRIVED</span>
+			</h1>
+			<a class="typo_grayLink" href="javascript: void(0);">View All</a>
+			<ul class="asset_catalog-items util_clearfix">
 				<li>
 					<a href="javascript: void(0);">
 						<img src="img/content/shoes5.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText">DARK BROGUES</span>
-							<span class="price">$65</span>
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
+							<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+							<span class="asset_catalog-price">
+							$65
+						</span>
 						</div>
 					</a>
+					<button class="curtButton">Add to cart</button>
 				</li>
 				<li>
 					<a href="javascript: void(0);">
 						<img src="img/content/shoes6.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText">LEATHER HIGHTOPS</span>
-							<span class="price">$65</span>
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
+							<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+							<span class="asset_catalog-price">
+							$65
+						</span>
 						</div>
 					</a>
+					<button class="curtButton">Add to cart</button>
 				</li>
 				<li>
 					<a href="javascript: void(0);">
 						<img src="img/content/shoes7.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText">GRAY BROGUES</span>
-							<span class="price">$65</span>
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
+							<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+							<span class="asset_catalog-price">
+							$65
+						</span>
 						</div>
 					</a>
+					<button class="curtButton">Add to cart</button>
 				</li>
 				<li>
 					<a href="javascript: void(0);">
 						<img src="img/content/shoes8.jpg" alt="boots">
-						<div class="asset_itemText">
-							<span class="asset_itemText">DARK BROGUES</span>
-							<span class="price">$65</span>
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
+							<span class="asset_catalog-textDescribe">DARK BROGUES</span>
+							<span class="asset_catalog-price">
+							$65
+						</span>
 						</div>
 					</a>
+					<button class="curtButton">Add to cart</button>
 				</li>
 			</ul>
 		</div>

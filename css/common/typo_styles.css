@@ -29,3 +29,29 @@
     font-size: 18px;
     margin: 10px;
 }
+.typo_richHeaderItem1 {
+    position: relative;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: #434343;
+    padding-bottom: 10px;
+    top: 10px;
+    padding-top: 30px;
+    margin: 10px;
+}
+.typo_richHeaderItem1:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    height: 5px;
+    background-repeat: repeat-x;
+    left: 0;
+}
+.typo_richHeaderItem1 span {
+    position: relative;
+    z-index: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #f6f6f6
+}
