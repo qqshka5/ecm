@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
 	<title>e-commerce</title>
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
@@ -24,31 +24,26 @@
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_popularProduct.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_catalog.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_personalAssistant.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/asset_siteFooter.css">
 
 	<link rel="stylesheet" type="text/css" href="content/slider.css">
 </head>
-	<!--
-		@todo
-		- navigation zoom bug
-		- navigation content
-	-->
+<body>
 	<div>
-		<div class=" div.asset_personalAssistant > div.asset_personalAssistant-enter + div.asset_personalAssistant-popup">
-		</div>
 		<div class="asset_personalAssistant">
-		</div>
-		<div class="asset_personalAssistant-enter"><span>Personal Assistant</span></div>
-		<div class="asset_personalAssistant-popup">
-			<section class="personalAssistant">
-				<span class="liveChat">Personal Assistant - live chat</span>
-			</section>
-			<section class="personalAssistantWhite">
-				<h1 class="liveChatHeader">Welcome!</h1>
-				<span class="liveChatDescribe">Please note, UNISHOP Stylists are not able to assist with<br> Customer Care enquiries.</span>
-				<input class="reset_textInput nameInput" type="text" name="" placeholder="Name"/>
-				<input class="reset_textInput emailInput" type="text" name="" placeholder="Email Address"/>
-				<button>Start Chat</button>
-			</section>
+			<div class="asset_personalAssistant-enter"><span>Personal Assistant</span></div>
+			<div class="asset_personalAssistant-popup">
+				<section class="personalAssistant">
+					<span class="liveChat">Personal Assistant - live chat</span>
+				</section>
+				<section class="personalAssistantWhite">
+					<h1 class="liveChatHeader">Welcome!</h1>
+					<span class="liveChatDescribe">Please note, UNISHOP Stylists are not able to assist with<br> Customer Care enquiries.</span>
+					<input class="reset_textInput nameInput" type="text" name="" placeholder="Name"/>
+					<input class="reset_textInput emailInput" type="text" name="" placeholder="Email Address"/>
+					<button>Start Chat</button>
+				</section>
+			</div>
 		</div>
 	</div>
 	<div class="asset_topLinks">
@@ -223,8 +218,10 @@
 				</li>
 				<li class="asset_catalog-item">
 					<a href="javascript: void(0);">
-					<img src="img/content/shoes2.jpg" alt="boots">
-					<div class="asset_catalog-text">
+						<img src="img/content/shoes2.jpg" alt="boots">
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
 						<span class="asset_catalog-textDescribe">LEATHER HIGHTOPS</span>
 						<span class="asset_catalog-price">
 							$65
@@ -234,9 +231,11 @@
 					<button class="curtButton">Add to cart</button>
 				</li>
 				<li class="asset_catalog-item asset_catalog-item--sale">
-					<a href="javascript: void(0);">
-					<img src="img/content/shoes3.jpg" alt="boots">
-					<div class="asset_catalog-text">
+						<a href="javascript: void(0);">
+						<img src="img/content/shoes3.jpg" alt="boots">
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
 						<span class="asset_catalog-textDescribe">GRAY BROGUES</span>
 						<span class="asset_catalog-price">
 							$65
@@ -246,9 +245,11 @@
 					<button class="curtButton">Add to cart</button>
 				</li>
 				<li class="asset_catalog-item asset_catalog-item--new">
-				<a href="javascript: void(0);">
-					<img src="img/content/shoes4.jpg" alt="boots">
-					<div class="asset_catalog-text">
+						<a href="javascript: void(0);">
+						<img src="img/content/shoes4.jpg" alt="boots">
+						<span class="itemDescription">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor.
+						</span>
+						<div class="asset_catalog-text">
 						<span class="asset_catalog-textDescribe">DARK BROGUES</span>
 						<span class="asset_catalog-price">
 							$65
@@ -322,5 +323,60 @@
 			</ul>
 		</div>
 	</div>
+	<footer>
+		<div class="asset_siteFooter">
+			<div class="layout_centralColumn">
+			<section class="assetFooter_socialMedia">
+				<h2>UNISHOP</h2>
+				<span>Your about us information would fit here nicely.</span>
+				<ul class="socialLinks">
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+				</ul>
+			</section>
+			<section class="assetFooter_links">
+				<h2>LINKS</h2>
+				<ul>
+					<li><a href="javascript: void(0);">About Us</a></li>
+					<li><a href="javascript: void(0);">Terms & Conditions</a></li>
+					<li><a href="javascript: void(0);">Customers Service</a></li>
+					<li><a href="javascript: void(0);">Careers</a></li>
+				</ul>
+			</section>
+			<section class="assetFooter_blog">
+				<h2>BLOGS</h2>
+				<ul>
+					<li>
+						<a href="javascript: void(0);">
+							<h2>Article Headline fit here perfectly</h2>
+							<span>
+						Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam. [9/24/13 2:38:03 PM] Irina Ageychik: если будет интерес на фул-тайм и пзиция с доходом от 3.0К+ буду рада рассказать вам о пректе :)
+					</span>
+						</a>
+					</li>
+					<li>
+						<a href="javascript: void(0);">
+							<h2>Article Headline fit here perfectly</h2>
+							<span>
+						Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam. [9/24/13 2:38:03 PM] Irina Ageychik: если будет интерес на фул-тайм и пзиция с доходом от 3.0К+ буду рада рассказать вам о пректе :)
+					</span>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<section class="assetFooter_newsletter">
+				<h2>NEWSLATTER</h2>
+				<input class="footerMailemailInput" type="text" name="" placeholder="Put your e-mail"/>
+				<div class="asset_locale-dropdown"></div>
+				<button>Subscribe</button>
+			</section>
+			</div>
+		</div>
+	</footer>
 </body>
 </html>

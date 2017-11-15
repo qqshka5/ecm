@@ -1,5 +1,6 @@
 .asset_personalAssistant {
     position: fixed;
+    z-index: 3;
     top: 10%;
     right: 20px;
     color: #2fb789;
@@ -15,10 +16,11 @@
     position: absolute;
     width: 230px;
     height: 52px;
+    right: 0;
     background-color: #333333;
     display: inline-block;
 }
-.asset_personalAssistant:hover
+.asset_personalAssistant:hover,
 .asset_personalAssistant-enter {
     visibility: visible;
 }
@@ -50,7 +52,7 @@
     top: 0;
     background: gray;
     transition: visibility 0.3s;
-    opacity: 0.3s;
+    opacity: 0.3;
 }
 .asset_personalAssistant:hover,
 .asset_personalAssistant-popup {
@@ -61,7 +63,7 @@
     width: 437px;
     height: 396px;
     border: 1px solid #232323;
-    z-index: 1;
+    background: #f6f6f6;
 }
 .personalAssistant {
     position: relative;

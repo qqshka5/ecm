@@ -1,0 +1,27 @@
+.asset_siteFooter {
+	border-top: 1px solid gray;
+	padding-top: 40px;
+	width: 100%;
+	margin:10px;
+}
+.assetFooter_socialMedia {
+	display: inline-block;
+	height: 347px;
+	max-width: 200px;
+}
+.assetFooter_links {
+	display: inline-block;
+	height: 347px;
+	max-width: 240px;
+}
+.assetFooter_blog {
+	display: inline-block;
+	height: 347px;
+	max-width: 240px;
+}
+.assetFooter_newsletter {
+	display: inline-block;
+	height: 347px;
+	max-width: 240px;
+}
+
