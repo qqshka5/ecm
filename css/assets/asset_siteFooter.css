@@ -2,26 +2,140 @@
 	border-top: 1px solid gray;
 	padding-top: 40px;
 	width: 100%;
-	margin:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.asset_siteFooterFlex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.asset_siteFooter .layout_centralColumn > section {
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    vertical-align: top;
 }
 .assetFooter_socialMedia {
-	display: inline-block;
 	height: 347px;
-	max-width: 200px;
+	max-width: 190px;
+}
+.assetFooter_socialMedia h2 {
+	font-size: 40px;
+	font-family: 'Manuale', serif;
+	padding-bottom: 23px;
+}
+.assetFooter_socialMedia span {
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    color: #999999;
+    padding-bottom: 23px;
+}
+.socialLinks {
+    margin-top: 10px;
+}
+.socialLinks li {
+	float: left;
+	margin-right: 8px;
+	margin-top: 13px;
 }
 .assetFooter_links {
-	display: inline-block;
 	height: 347px;
 	max-width: 240px;
+}
+.assetFooter_links h2 {
+	font-size: 18px;
+	color: #434343;
+	font-weight: bolder;
+}
+.assetFooter_links li {
+	margin-top: 18px;
 }
 .assetFooter_blog {
-	display: inline-block;
 	height: 347px;
 	max-width: 240px;
+}
+.assetFooter_blog h2 {
+    font-size: 18px;
+    color: #434343;
+    font-weight: bolder;
+    margin-bottom: 18px;
+}
+.assetFooter_blog span {
+    font-size: 18px;
+    color: #434343;
+}
+.assetFooter_blog p {
+    font-size: 16px;
+    color: #898989;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
 }
 .assetFooter_newsletter {
-	display: inline-block;
 	height: 347px;
 	max-width: 240px;
 }
+.assetFooter_newsletter h2 {
+    font-size: 18px;
+    color: #434343;
+    font-weight: bolder;
+    margin-bottom: 18px;
+}
+.footerMailemailInput {
+	width: 220px;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    height: 34px;
+}
+.asset_locale-dropdownGender {
+	position: relative;
+	width: 140px;
+	height: 34px;
+	border: 1px solid gray;
+	margin-top: 18px;
+}
+.asset_locale-dropdownGender:before {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid black;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    display: inline-block;
+    vertical-align: 2px;
+    margin-left: 2px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+.asset_locale-dropdownSelectedGender {
+	color: #555555;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.asset_locale-genderList {
+    border: 2px solid #333333;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 0.4s, top 0.4s;
+    visibility: hidden;
+    top: calc(100% - 10px);
+    min-width: 210px;
+}
+.asset_locale-genderList li {
+	margin: 10px;
+	color: #555555;
 
+}
+.asset_locale-dropdownGender:hover:before .asset_locale-genderList {
+	visibility: visible;
+}
+.assetFooter_newsletter button {
+	height: 38px;
+	width: 130px;
+	background: #167c9a;
+	color: white;
+	margin-top: 18px;
+}

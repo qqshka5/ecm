@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		(function () {
+		    var tmp;
+
+		    tmp = sum([3, 5, 7, 9]);
+		    console.log(tmp);
+
+			function sum (arr) {
+				var	result = 0;
+				var index;
+
+				for (index = 0; index < arr.length; index = index + 1) {
+				    result = result + arr[index];
+				}
+
+			    return result;
+            }
+
+        })();
+	</script>
+</body>
+<!--arr  - массив-->
+</html>

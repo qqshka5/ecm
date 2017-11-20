@@ -20,8 +20,7 @@
     background-color: #333333;
     display: inline-block;
 }
-.asset_personalAssistant:hover,
-.asset_personalAssistant-enter {
+.asset_personalAssistant:hover .asset_personalAssistant-enter {
     visibility: visible;
 }
 .asset_personalAssistant-enter span {
@@ -48,22 +47,21 @@
 .asset_personalAssistant-popup {
     visibility: hidden;
     position: absolute;
-    right: 30px;
+    right: 0;
     top: 0;
     background: gray;
     transition: visibility 0.3s;
-    opacity: 0.3;
-}
-.asset_personalAssistant:hover,
-.asset_personalAssistant-popup {
-    visibility: visible;
     opacity: 1;
 }
 .asset_personalAssistant-popup {
+    visibility: hidden;
     width: 437px;
     height: 396px;
     border: 1px solid #232323;
     background: #f6f6f6;
+}
+.asset_personalAssistant-popup--open {
+    visibility: visible;
 }
 .personalAssistant {
     position: relative;
@@ -71,8 +69,7 @@
     height: 52px;
     background-color: #333333;
 }
-.personalAssistant:after {
-    content: '';
+.asset-personalAssistant-close {
     position: absolute;
     height: 52px;
     width: 52px;
@@ -82,7 +79,7 @@
     background-color: #232323;
     top: 0;
     right: 0;
-    display: inline-block;
+    z-index: 1;
 }
 .personalAssistant span {
     color: white;

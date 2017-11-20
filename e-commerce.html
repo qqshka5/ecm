@@ -25,6 +25,7 @@
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_catalog.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_personalAssistant.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_siteFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/asset_geoLocation.css">
 
 	<link rel="stylesheet" type="text/css" href="content/slider.css">
 </head>
@@ -33,6 +34,7 @@
 		<div class="asset_personalAssistant">
 			<div class="asset_personalAssistant-enter"><span>Personal Assistant</span></div>
 			<div class="asset_personalAssistant-popup">
+				<div class="asset-personalAssistant-close"></div>
 				<section class="personalAssistant">
 					<span class="liveChat">Personal Assistant - live chat</span>
 				</section>
@@ -323,60 +325,92 @@
 			</ul>
 		</div>
 	</div>
-	<footer>
-		<div class="asset_siteFooter">
+	<div class="asset_geoLocation">
+		<div class="layout_centralColumn util_clearfix">
+			<div class="asset_geoLocationText">
+				<h1><b>Tim Vandim</b> via Twitter</h1>
+				<span>
+					Lorem ipsum dolor sit amet, <a target="_blank" href="https://www.instagram.com/vysotskaya.anya/">@unishop</a> consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut.
+				</span>
+			</div>
+		</div>
+		<div class="asset_geoLocationGeneralHeader">
 			<div class="layout_centralColumn">
-			<section class="assetFooter_socialMedia">
-				<h2>UNISHOP</h2>
-				<span>Your about us information would fit here nicely.</span>
-				<ul class="socialLinks">
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-					<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
-				</ul>
-			</section>
-			<section class="assetFooter_links">
-				<h2>LINKS</h2>
-				<ul>
-					<li><a href="javascript: void(0);">About Us</a></li>
-					<li><a href="javascript: void(0);">Terms & Conditions</a></li>
-					<li><a href="javascript: void(0);">Customers Service</a></li>
-					<li><a href="javascript: void(0);">Careers</a></li>
-				</ul>
-			</section>
-			<section class="assetFooter_blog">
-				<h2>BLOGS</h2>
-				<ul>
-					<li>
-						<a href="javascript: void(0);">
-							<h2>Article Headline fit here perfectly</h2>
-							<span>
-						Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam. [9/24/13 2:38:03 PM] Irina Ageychik: если будет интерес на фул-тайм и пзиция с доходом от 3.0К+ буду рада рассказать вам о пректе :)
-					</span>
-						</a>
-					</li>
-					<li>
-						<a href="javascript: void(0);">
-							<h2>Article Headline fit here perfectly</h2>
-							<span>
-						Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate, ligula lacinia scelerisque tempor, lacus lacus ornare ante, ac egestas est urna sit amet arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed molestie augue sit amet leo consequat posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel ante a orci tempus eleifend ut et magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam. [9/24/13 2:38:03 PM] Irina Ageychik: если будет интерес на фул-тайм и пзиция с доходом от 3.0К+ буду рада рассказать вам о пректе :)
-					</span>
-						</a>
-					</li>
-				</ul>
-			</section>
-			<section class="assetFooter_newsletter">
-				<h2>NEWSLATTER</h2>
-				<input class="footerMailemailInput" type="text" name="" placeholder="Put your e-mail"/>
-				<div class="asset_locale-dropdown"></div>
-				<button>Subscribe</button>
-			</section>
+				<h1 class="asset_geoLocationGeneralHeaderText">WORLDWIDE STORE LOCATOR</h1>
+			</div>
+		</div>
+		<div class="asset_geoLocationMap">
+			<div class="layout_centralColumn">
+				<span><input id="the_wrong_way" class="zipcode" type="number" value="" placeholder="Zip-code or Address"></span>
+				<span class="asset_geoLocationFinder">RADIUS: 25 Miles</span>
+				<button>Find a Store</button>
+			</div>
+		</div>
+	</div>
+	<footer class="asset_siteFooter">
+		<div class="layout_centralColumn">
+			<div class="asset_siteFooterFlex">
+				<section class="assetFooter_socialMedia">
+					<h2>UNISHOP</h2>
+					<span>Your about us information would fit here nicely.</span>
+					<ul class="socialLinks">
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/instagram.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/twitter.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/youtube.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/viemo.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/SoundCloud.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/google.jpg"></a></li>
+						<li><a href="https://www.instagram.com/vysotskaya.anya/"><img src="img/bloger.jpg"></a></li>
+					</ul>
+				</section>
+				<section class="assetFooter_links">
+					<h2>LINKS</h2>
+					<ul>
+						<li><a href="javascript: void(0);">About Us</a></li>
+						<li><a href="javascript: void(0);">Terms & Conditions</a></li>
+						<li><a href="javascript: void(0);">Customers Service</a></li>
+						<li><a href="javascript: void(0);">Careers</a></li>
+					</ul>
+				</section>
+				<section class="assetFooter_blog">
+					<h2>BLOGS</h2>
+					<ul>
+						<li>
+							<a href="javascript: void(0);">
+								<span>Article Headline fit here perfectly</span>
+								<p>
+									Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate,
+								</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript: void(0);">
+								<span>Article Headline fit here perfectly</span>
+								<p>
+									Nulla facilisi. Duis aliquet egestas purus in blandit. Curabitur vulputate,
+								</p>
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="assetFooter_newsletter">
+					<h2>NEWSLATTER</h2>
+					<input class="footerMailemailInput" type="email" size="32" minlength="3" maxlength="64" placeholder="Put your e-mail">
+					<div class="asset_locale-dropdownGender">
+						<div class="asset_locale-dropdownSelectedGender">Woman</div>
+						<ul class="asset_locale-genderList">
+							<li>Woman</li>
+							<li>Man</li>
+						</ul>
+					</div>
+					<button>Subscribe</button>
+				</section>
+
 			</div>
 		</div>
 	</footer>
+
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="asset_personalAssistant.js"></script>
 </body>
 </html>
