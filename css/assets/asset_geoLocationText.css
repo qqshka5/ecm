@@ -1,0 +1,24 @@
+.asset_geoLocationText {
+    color: #999999;
+    text-align: center;
+    font-size: 24px;
+    background: #f6f6f6;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+.asset_geoLocationText h1 {
+    margin-bottom: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.asset_geoLocationText b {
+    color: black;
+}
+.asset_geoLocationText a {
+    color: #3f8bd5;
+}
+.asset_geoLocationText span {
+    margin-bottom: 54px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

@@ -1,48 +1,71 @@
 .asset_geoLocation {
-    background: #f6f6f6;
-    width: 100%;
-}
-.asset_geoLocationText {
-    color: #999999;
-    display: inline-block;
-    text-align: center;
-    font-size: 24px;
-    max-width: 900px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.asset_geoLocationText h1 {
-    margin-top: 54px;
-    margin-bottom: 28px;
-}
-.asset_geoLocationText b {
-    color: black;
-}
-.asset_geoLocationText a {
-    color: #3f8bd5;
-}
-.asset_geoLocationText span {
-    margin-bottom: 54px;
+    position: relative;
 }
 .asset_geoLocationGeneralHeader {
+    position: absolute;
     background-color: #12cce2;
-    opacity: 1;
+    width: 100%;
     height: 171px;
-    margin-top: 54px;
+    mix-blend-mode: multiply;
 }
 .asset_geoLocationGeneralHeaderText {
-    font-size: 48px;
+    font-size: 50px;
     color: white;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 63px;
 }
 .asset_geoLocationMap {
-    background-color: white;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 54px;
+}
+.asset_geoLocationMap-add {
+    height: 593px;
     width: 100%;
 }
-.asset_geoLocationMap span {
+.asset_geoLocationFinder{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.asset_geoLocationFinderSet {
+    position: relative;
     display: block;
     text-align: center;
+    font-size: 37px;
+    margin-top: 46px;
+    font-weight: bold;
+}
+.asset_geoLocationFinderSet span {
+    color: #b8b8b8;
+}
+.asset_geoLocationFinderSetArrow {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid black;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    display: inline-block;
+    vertical-align: 2px;
+    margin-left: 2px;
+    left: 442px;
+    top: 305px;
+}
+.asset_geoLocationFinderSetArrowUp {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    display: inline-block;
+    vertical-align: 2px;
+    margin-left: 2px;
+    border-bottom: 7px solid black;
+    left: 442px;
+    top: 295px;
 }
 .asset_geoLocationMap input {
     width: 638px;
@@ -51,7 +74,7 @@
     font-weight: 300;
     height: 34px;
     text-align: center;
-    margin-top: 54px;
+    margin-top: 194px;
 }
 .asset_geoLocationMap button {
     height: 67px;
@@ -59,4 +82,7 @@
     background: #167c9a;
     color: white;
     margin-top: 18px;
+    margin-top: 54px;
+    move-to: center;
+    font-size: 30px;
 }

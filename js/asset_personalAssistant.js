@@ -15,3 +15,20 @@
         $popup.removeClass('asset_personalAssistant-popup--open');
     }
 })();
+
+// var a;
+//
+// function name () {
+//     console.log("abv");
+// }
+//
+// a = name;
+// a();
+//
+//
+// {
+//     selector: '.asset_personalAssistant-enter',
+//     addEventListener: function () {
+//
+//     }
+// }

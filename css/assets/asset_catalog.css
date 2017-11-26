@@ -4,4 +4,31 @@
     width: 100%;
     text-align: center;
 }
-
+.asset_section_gray-controlsContainer {
+    position: absolute;
+    width: 100%;
+}
+.asset_section_gray-controlsContainer .img_arrowLeft {
+    position: absolute;
+    left: -77px;
+    top: 187px;
+    z-index: 1;
+    height: 70px;
+    width: 36px;
+    margin-top: -35px;
+    transition: transform 0.2s;
+}
+.asset_section_gray-controlsContainer .img_arrowLeft:hover,
+.asset_section_gray-controlsContainer .img_arrowRight:hover {
+    transform: scale(1.2);
+}
+.asset_section_gray-controlsContainer .img_arrowRight {
+    position: absolute;
+    right: -35px;
+    top: 187px;
+    z-index: 1;
+    height: 70px;
+    width: 36px;
+    margin-top: -35px;
+    transition: transform 0.2s;
+}

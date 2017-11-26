@@ -26,6 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_personalAssistant.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_siteFooter.css">
 	<link rel="stylesheet" type="text/css" href="css/assets/asset_geoLocation.css">
+	<link rel="stylesheet" type="text/css" href="css/assets/asset_geoLocationText.css">
 
 	<link rel="stylesheet" type="text/css" href="content/slider.css">
 </head>
@@ -139,6 +140,12 @@
 		</div>
 	</div>
 	<div class="asset_slider">
+		<div class="layout_centralColumn util_relative">
+			<div class="asset_slider-controlsContainer">
+				<div class="img_arrowLeft"></div>
+				<div class="img_arrowRight"></div>
+			</div>
+		</div>
 		<ul class="asset_slider-slides">
 			<li class="asset_slider-slide" id="slide1">
 				<div class="layout_centralColumn util_clearfix">
@@ -203,6 +210,12 @@
 				<span>POPULAR PRODUCTS</span>
 			</h1>
 			<a class="typo_grayLink" href="javascript: void(0);">View All</a>
+			<div class="layout_centralColumn util_relative">
+				<div class="asset_section_gray-controlsContainer">
+					<div class="img_arrowLeft"></div>
+					<div class="img_arrowRight"></div>
+				</div>
+			</div>
 			<ul class="asset_catalog-items util_clearfix">
 				<li class="asset_catalog-item">
 					<a href="javascript: void(0);">
@@ -265,6 +278,13 @@
 				<span>JUST ARRIVED</span>
 			</h1>
 			<a class="typo_grayLink" href="javascript: void(0);">View All</a>
+			<div class="layout_centralColumn util_relative">
+				<div class="asset_section_gray-controlsContainer">
+					<div class="img_arrowLeft"></div>
+					<div class="img_arrowRight"></div>
+				</div>
+			</div>
+
 			<ul class="asset_catalog-items util_clearfix">
 				<li>
 					<a href="javascript: void(0);">
@@ -325,24 +345,31 @@
 			</ul>
 		</div>
 	</div>
-	<div class="asset_geoLocation">
+	<div class="asset_geoLocationText">
 		<div class="layout_centralColumn util_clearfix">
-			<div class="asset_geoLocationText">
-				<h1><b>Tim Vandim</b> via Twitter</h1>
-				<span>
-					Lorem ipsum dolor sit amet, <a target="_blank" href="https://www.instagram.com/vysotskaya.anya/">@unishop</a> consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut.
-				</span>
-			</div>
+			<h1><b>Tim Vandim</b> via Twitter</h1>
+			<span>
+				Lorem ipsum dolor sit amet, <a target="_blank" href="https://www.instagram.com/vysotskaya.anya/">@unishop</a> consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut.
+			</span>
 		</div>
+	</div>
+	<div class="asset_geoLocation">
 		<div class="asset_geoLocationGeneralHeader">
 			<div class="layout_centralColumn">
 				<h1 class="asset_geoLocationGeneralHeaderText">WORLDWIDE STORE LOCATOR</h1>
 			</div>
 		</div>
 		<div class="asset_geoLocationMap">
-			<div class="layout_centralColumn">
-				<span><input id="the_wrong_way" class="zipcode" type="number" value="" placeholder="Zip-code or Address"></span>
-				<span class="asset_geoLocationFinder">RADIUS: 25 Miles</span>
+			<img src="img/content/map.png">
+			<!--<div class="asset_geoLocationMap-add" id="map">-->
+			<!--</div>-->
+			<div class="asset_geoLocationFinder">
+				<div>
+					<input id="the_wrong_way" class="zipcode" type="number" value="" placeholder="Zip-code or Address">
+				</div>
+				<span class="asset_geoLocationFinderSet"><span>RADIUS:</span> 25 Miles</span>
+				<div class="asset_geoLocationFinderSetArrow"></div>
+				<div class="asset_geoLocationFinderSetArrowUp"></div>
 				<button>Find a Store</button>
 			</div>
 		</div>
@@ -411,6 +438,10 @@
 	</footer>
 
 	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="asset_personalAssistant.js"></script>
+	<script src="js/asset_personalAssistant.js"></script>
+	<!--<script src="js/asset_geoLocationMap-add.js"></script>-->
+	<!--<script async defer src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBMwKkoTFNeZF8ChIOBqBN1sGnrMFJMgmQ&callback=initMap"></script>-->
+	<script src="js/asset_slider.js"></script>
+
 </body>
 </html>
