@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
 	<title>e-commerce</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/common/reset.css">
@@ -365,11 +367,27 @@
 			<!--</div>-->
 			<div class="asset_geoLocationFinder">
 				<div>
-					<input id="the_wrong_way" class="zipcode" type="number" value="" placeholder="Zip-code or Address">
+					<input id="the_wrong_way" class="zipcode reset_textInput" type="number" value="" placeholder="Zip-code or Address">
 				</div>
-				<span class="asset_geoLocationFinderSet"><span>RADIUS:</span> 25 Miles</span>
-				<div class="asset_geoLocationFinderSetArrow"></div>
-				<div class="asset_geoLocationFinderSetArrowUp"></div>
+				<div class="asset_geoLocationFinderSet">
+					<span>RADIUS:</span>
+					<div class="selectedDistanetion">
+						<span>25 Miles</span>
+						<div class="asset_geoLocationFinderSetArrow"></div>
+						<div class="asset_geoLocationFinderSetArrowUp"></div>
+						<div class="distanetionDropdown">
+							<ul class="variableDistance">
+								<li>5 Miles</li>
+								<li>10 Miles</li>
+								<li>15 Miles</li>
+								<li>30 Miles</li>
+								<li>40 Miles</li>
+								<li>50 Miles</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
 				<button>Find a Store</button>
 			</div>
 		</div>
@@ -423,12 +441,17 @@
 				<section class="assetFooter_newsletter">
 					<h2>NEWSLATTER</h2>
 					<input class="footerMailemailInput" type="email" size="32" minlength="3" maxlength="64" placeholder="Put your e-mail">
-					<div class="asset_locale-dropdownGender">
-						<div class="asset_locale-dropdownSelectedGender">Woman</div>
-						<ul class="asset_locale-genderList">
-							<li>Woman</li>
-							<li>Man</li>
-						</ul>
+					<div>
+						<div class="asset_locale-dropdownSelectedGender">
+							<span>Women's</span>
+							<div class="asset_locale-dropdownGender">
+								<ul class="asset_locale-genderList">
+									<li class="imgAfter_arrowRight">Women's</li>
+									<li class="imgAfter_arrowRight">Man's</li>
+									<li class="imgAfter_arrowRight">Kids</li>
+								</ul>
+							</div>
+						</div>
 					</div>
 					<button>Subscribe</button>
 				</section>

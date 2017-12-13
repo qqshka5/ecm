@@ -30,16 +30,23 @@
     transform: translate(-50%, -50%);
     top: 50%;
 }
-.asset_geoLocationFinderSet {
+.asset_geoLocationFinderSet span {
     position: relative;
-    display: block;
-    text-align: center;
     font-size: 37px;
     margin-top: 46px;
     font-weight: bold;
-}
-.asset_geoLocationFinderSet span {
     color: #b8b8b8;
+    left: -66px;
+    top: 47px;
+}
+.selectedDistanetion span {
+    position: absolute;
+    font-size: 37px;
+    margin-top: 46px;
+    font-weight: bold;
+    color: black;
+    top: 231px;
+    left: 322px;
 }
 .asset_geoLocationFinderSetArrow {
     position: absolute;
@@ -67,22 +74,44 @@
     left: 442px;
     top: 295px;
 }
+.variableDistance {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.4s, top 0.4s;
+    visibility: hidden;
+    width: 140px;
+    right: 192px;
+    background: transparent;
+    font-size: 37px;
+    font-weight: bold;
+}
+.selectedDistanetion:hover .variableDistance {
+    visibility: visible;
+    opacity: 1;
+}
+
 .asset_geoLocationMap input {
     width: 638px;
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     height: 34px;
-    text-align: center;
+    border: 1px solid gray;
     margin-top: 194px;
+    text-align: center;
+    background-color: white;
+}
+.asset_geoLocationMap input .placeholder {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    height: 34px;
+    color: #167c9a;
 }
 .asset_geoLocationMap button {
     height: 67px;
     width: 243px;
     background: #167c9a;
     color: white;
-    margin-top: 18px;
-    margin-top: 54px;
-    move-to: center;
+    margin-top: 99px;
     font-size: 30px;
 }

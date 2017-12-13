@@ -1,0 +1,23 @@
+.layout_centralColumn {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout_basicFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layout_basicFlexContainer > * { width: 100%; }
+
+@media (min-width: 321px) {
+    .layout_basicFlexContainer > * { width: 50%; }
+}
+
+@media (min-width: 641px) {
+    .layout_basicFlexContainer > * { width: 33.33333333%; }
+}
+
+@media (min-width: 961px) {
+    .layout_basicFlexContainer > * { width: 25%; }
+}

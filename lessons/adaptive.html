@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adaptive html lesson</title>
+    <style>
+        body {
+            display: flex;
+            flex-wrap: wrap; /*чтобы  все не  было в одноу чтроку*/
+        }
+        div {
+            height: 100px;
+            border: 10px solid white;
+            background: #999999;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        @media (min-width: 321px) {
+            div { width: 50%; }
+        }
+        @media (min-width: 501px) {
+            div { width: 33.33%; }
+        }
+        @media (min-width: 641px) {
+            div { width: 25%; }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</body>
+</html>
