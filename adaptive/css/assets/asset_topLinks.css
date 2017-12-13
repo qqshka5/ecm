@@ -5,19 +5,9 @@
     background-color: #e9e9e9;
 }
 .asset_topLinks-brands {
-    /*width: 100%;*/
+    width: 100%;
 }
-.asset_topLinks-brands.swiper-container {
-    display: inline-block;
-    /*margin: 0 auto;*/
-    /*position: relative;*/
-    /*overflow: hidden;*/
-    /*list-style: none;*/
-    /*padding: 0;*/
-    /*!* Fix of Webkit flickering *!*/
-    /*z-index: 1;*/
-}
-.asset_topLinks-brands .swiper-wrapper a {
+.swiper-wrapper a {
     font-size: 1em;
     color: #555555;
     margin-top: 7px;
@@ -25,33 +15,6 @@
 }
 .asset_topLinks-brands a:hover {
     color: steelblue;
-}
-.asset_topLinks-brands .swiper-wrapper {
-    /*position: relative;*/
-    width: auto;
-    /*height: 100%;*/
-    /*z-index: 1;*/
-    /*display: -webkit-box;*/
-    /*display: -webkit-flex;*/
-    /*display: -ms-flexbox;*/
-    /*display: flex;*/
-    /*-webkit-transition-property: -webkit-transform;*/
-    /*transition-property: -webkit-transform;*/
-    /*-o-transition-property: transform;*/
-    /*transition-property: transform;*/
-    /*transition-property: transform, -webkit-transform;*/
-    /*-webkit-box-sizing: content-box;*/
-    /*box-sizing: content-box;*/
-}
-.asset_topLinks-brands .swiper-slide {
-    width: auto;
-    /*height: 100%;*/
-    /*position: relative;*/
-    /*-webkit-transition-property: -webkit-transform;*/
-    /*transition-property: -webkit-transform;*/
-    /*-o-transition-property: transform;*/
-    /*transition-property: transform;*/
-    /*transition-property: transform, -webkit-transform;*/
 }
 .asset_topLinks-superNew {
     font-family: 'Manuale', serif;
