@@ -1,0 +1,25 @@
+.asset_magazine {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.asset_magazineSet li {
+    display: inline-block;
+    text-align: center;
+
+}
+.asset_magazineSet h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.asset_magazineSet p {
+    font-size: 16px;
+    color: #999999;
+    padding: 2%;
+    line-height: 140%;
+}
+.asset_magazineLink {
+    color: #555555;
+    font-weight: bold;
+    display: inline-block;
+}

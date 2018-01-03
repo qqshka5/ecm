@@ -1,0 +1,19 @@
+@media only screen and (min width 320px) {
+.asset_topLinks-triangle {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 22px;
+    background-size: 100% 22px;
+    left: 0px;
+}
+.asset_topLinks-superNew:after {
+    content: "";
+    position: absolute;
+    top: 31px;
+    left: 50%;
+    width: 13px;
+    height: 12px;
+    margin-left: calc(-13px / 2);
+}
+}
